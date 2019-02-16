@@ -2,9 +2,9 @@
   "name": "qad-node-starter-kit",
   "version": "1.0.0",
   "description": "Quick and dirty node starter kit, including babel and nodemon",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
